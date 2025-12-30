@@ -15,4 +15,4 @@ COPY --from=builder /app/style.css .
 COPY --from=builder /app/script.js .
 COPY --from=builder /app/images ./images
 EXPOSE 8080
-CMD ["./app/cat-app"]
+CMD ["./cat-app"]
